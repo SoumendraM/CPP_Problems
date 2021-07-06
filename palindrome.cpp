@@ -29,9 +29,12 @@ void anaPalin(string s1) {
 int main()
 {
         int t;
+        cout << "Enter Number of trials: ";
         cin >> t;
         getchar();
+
         while (t--) {
+                cout << "Enter the word: ";
                 string s;
                 getline(cin, s);
                 anaPalin(s);
